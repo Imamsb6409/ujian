@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+body {
+  margin: 0;
+  padding: 1em;
+  font-family: "Manrope", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header #personal,
+header #business, header #bahasa, header #login, header #signup {
+  display: none;
+}
+header .logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 50px;
+}
+header .logo h1 {
+  margin-left: 10px;
+}
+header #hamburger {
+  width: 50px;
+  height: 50px;
+}
+
+main .hero-text {
+  flex-wrap: wrap;
+}
+main section h1 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 35.2px;
+  letter-spacing: 0%;
+}
+main section button {
+  background: rgb(215, 96, 199);
+  font-weight: 500;
+  color: white;
+  padding: 1em 2em;
+  border-radius: 10px;
+  border: none;
+}
+main section .hero-img {
+  display: flex;
+  justify-content: center;
+}
+main section .hero-img img {
+  width: 750px;
+}
+
+@media screen and (min-width: 768px) {
+  header #personal,
+  header #business, header #bahasa, header #login, header #signup {
+    display: block;
+  }
+  header label {
+    display: flex;
+    align-items: center;
+    -moz-column-gap: 10px;
+         column-gap: 10px;
+  }
+  header .header-kiri {
+    display: flex;
+    -moz-column-gap: 4em;
+         column-gap: 4em;
+    align-items: center;
+  }
+  header .header-kanan {
+    display: flex;
+    -moz-column-gap: 2em;
+         column-gap: 2em;
+    align-items: center;
+  }
+  header #hamburger {
+    display: none;
+  }
+  header button {
+    border: none;
+  }
+  header button a {
+    text-decoration: none;
+    color: black;
+  }
+  header #login {
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    background-color: white;
+    border: 1px solid var(--Button-text, rgb(215, 96, 199));
+  }
+  header #login a {
+    color: rgb(215, 96, 199);
+  }
+  header #signup {
+    border-radius: 10px;
+    padding: 0.6em 1em;
+    background: rgb(61, 216, 208);
+  }
+  header #signup a {
+    color: white;
+  }
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -moz-column-gap: 10em;
+         column-gap: 10em;
+  }
+  .hero .hero-text h1 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 52.8px;
+    letter-spacing: 0%;
+  }
+  .hero .hero-text p {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27.32px;
+    letter-spacing: 0%;
+  }
+  .hero .hero-text button {
+    margin-top: 2em;
+  }
+  .hero .hero-img img {
+    width: 600px;
+  }
+}/*# sourceMappingURL=style.css.map */

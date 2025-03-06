@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+body {
+  margin: 0;
+  padding: 1em;
+  font-family: "Manrope", sans-serif;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  #personal,
+  #business, #bahasa, #login, #signup {
+    display: none;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+      width: 50px;
+    }
+    h1 {
+      margin-left: 10px;
+    }
+  }
+
+  #hamburger {
+    width: 50px;
+    height: 50px;
+  }
+}
+main {
+  .hero-text {
+    flex-wrap: wrap;
+  }
+  section {
+    h1 {
+      font-weight: 800;
+      font-size: 32px;
+      line-height: 35.2px;
+      letter-spacing: 0%;
+    }
+    button {
+      background: rgba(215, 96, 199, 1);
+      font-weight: 500;
+      color: white;
+      padding: 1em 2em;
+      border-radius: 10px;
+      border: none;
+    }
+
+    .hero-img {
+      display: flex;
+      justify-content: center;
+      img {
+        width: 750px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 768px) {
+  header {
+    #personal,
+    #business, #bahasa, #login, #signup {
+      display: block;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      column-gap: 10px;
+    }
+    .header-kiri {
+      display: flex;
+      column-gap: 4em;
+      align-items: center;
+    }
+    .header-kanan {
+      display: flex;
+      column-gap: 2em;
+      align-items: center;
+    }
+    #hamburger {
+      display: none;
+    }
+    button {
+      border: none;
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    }
+    #login {
+      border-radius: 10px;
+      padding: 0.5em 1em;
+      background-color: white;
+      a {
+        color: rgba(215, 96, 199, 1);
+      }
+      border: 1px solid var(--Button-text, rgba(215, 96, 199, 1));
+    }
+    #signup {
+      border-radius: 10px;
+      padding: 0.6em 1em;
+      background: rgba(61, 216, 208, 1);
+
+      a {
+        color: white;
+      }
+    }
+  }
+  .hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 10em;
+    .hero-text {
+      h1 {
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 52.8px;
+        letter-spacing: 0%;
+      }
+      p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 27.32px;
+        letter-spacing: 0%;
+      }
+      button {
+        margin-top: 2em;
+      }
+    }
+    .hero-img {
+      img {
+        width: 600px;
+      }
+    }
+  }
+}

@@ -1,0 +1,429 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Iceland&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: first baseline;
+  gap: 1em;
+  padding: 1em;
+}
+#mid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2em;
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 2em;
+}
+#right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 2em;
+}
+/* card-comment start */
+.card-comment {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 0em 1em;
+  #comment-header {
+    display: flex;
+    margin: 1em 1em 0em 1em;
+
+    justify-content: left;
+    align-items: center;
+    gap: 1em;
+    img {
+      width: 46px;
+      height: 46px;
+    }
+    h5 {
+      margin: 0;
+      font-size: 16px;
+    }
+  }
+  #comment-content {
+    margin: 0em 1em 1em 1em;
+    p {
+      color: #425466;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 23px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+  #comment-footer {
+    margin: 0em 1em 1em 1em;
+    img {
+      width: 16px;
+      height: 15px;
+      top: 0.5px;
+      left: 0px;
+      gap: 0px;
+      opacity: 0px;
+    }
+  }
+}
+/* card-comment end */
+
+/* card-iphone start */
+.card-iphone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: max-content;
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: black;
+  padding: 1em 2.7em;
+  #iphone-header {
+    display: flex;
+    margin: 1em 0em 0em 0em;
+    flex-direction: column;
+    p {
+      color: white;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      margin: 0;
+    }
+    h1 {
+      color: white;
+      font-size: 40px;
+      font-weight: 700;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      margin: 0;
+    }
+  }
+  #iphone-body {
+    margin: 1em 0em 0em 0em;
+    img {
+      width: 260px;
+      height: 193px;
+      top: 174px;
+      left: 472px;
+      gap: 0px;
+      opacity: 0px;
+    }
+    p {
+      color: white;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 12.1px;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+  #iphone-footer {
+    margin: 1em 0em 1em 0em;
+    p {
+      color: #f2f2f2;
+      font-size: 10px;
+      font-weight: 400;
+      line-height: 12.1px;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    #timer {
+      display: flex;
+      justify-content: center;
+      gap: 1em;
+      .time {
+        padding: 1em 1.5em;
+        background: #e4ecf7;
+        border-radius: 10px;
+        color: #505780;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 16px;
+
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+    }
+    #button {
+      display: flex;
+      justify-content: center;
+      margin: 1em;
+      :hover {
+        background-color: darkblue;
+        color: darkgray;
+      }
+      button {
+        padding: 1em 1.5em;
+        background: #4c6fff;
+        border-radius: 10px;
+        border: none;
+        a {
+          color: #ffffff;
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: 600;
+          line-height: 14px;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+        }
+      }
+    }
+  }
+}
+/* card-iphone end */
+
+/* card-shoes start */
+
+#card-shoes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: max-content;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  padding: 0.5em;
+  #shoes-header {
+    #shoes {
+      display: flex;
+      background-image: url("./assets/rounded.png");
+      width: 334px;
+      height: 200px;
+      background-position: center;
+      background-size: cover;
+      top: 8px;
+      left: 8px;
+      gap: 0px;
+      border-radius: 16px;
+      opacity: 0px;
+      justify-content: end;
+      #elements {
+        position: relative;
+        top: 0.7em;
+        right: 0.7em;
+
+        width: max-content;
+        img {
+          width: 56px;
+          height: 56px;
+        }
+      }
+    }
+  }
+  #shoes-body {
+    padding: 0em 1em;
+
+    .shoes-title {
+      color: #425466;
+      margin: 1em 0em;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    .price {
+      color: #27272e;
+      margin-bottom: 0.7em;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 27.3px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+}
+/* card-shoes end */
+
+/* card-buds start */
+#card-buds {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: max-content;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: white;
+  padding: 0.5em;
+  #buds-header {
+    img {
+      width: 334px;
+      height: 200px;
+      top: 8px;
+      left: 8px;
+      gap: 0px;
+      border-radius: 16px;
+      opacity: 0px;
+    }
+  }
+  #buds-body {
+    padding: 0em 1em;
+    #buds-title {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .buds-title {
+        margin: 1em 0em;
+
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 25px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      .price {
+        width: max-content;
+        color: #fff;
+        background: #4c6fff;
+        border-radius: 100px;
+        border: none;
+        text-align: center;
+        padding: 0.2em 1em;
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+    .option {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      p {
+        color: #425466;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      button {
+        width: max-content;
+        color: #505780;
+        background: #e4ecf7;
+        border-radius: 100px;
+        border: none;
+        text-align: center;
+        padding: 0.2em 1em;
+        font-size: 12px;
+        font-weight: 700;
+      }
+    }
+  }
+}
+/* card-buds end */
+
+/* card-payment start */
+#card-payment {
+  display: flex;
+  flex-direction: column;
+  width: max-content;
+
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 0em 2em;
+  #payment-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 1em 0em 0em;
+    gap: 10em;
+    h5 {
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 25px;
+      text-align: left;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+    a {
+      color: #4c6fff;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 14.52px;
+      text-align: right;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+    }
+  }
+  #payment-body {
+    .payment {
+      display: flex;
+      justify-content: start;
+      gap: 1em;
+      align-items: center;
+      margin: 1em 0em;
+      box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+      border-radius: 20px;
+      padding: 0.5em 1em;
+      background-color: white;
+      img {
+        width: 85px;
+        height: 58px;
+        top: 16px;
+        left: 16px;
+        gap: 0px;
+        opacity: 0px;
+      }
+      .card-number {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.92px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+      .exp {
+        color: #425466;
+      }
+      .master-card {
+        color: #27272e;
+      }
+    }
+  }
+  #payment-footer {
+    .button {
+      width: 100%;
+      button {
+        width: 100%;
+        padding: 1.5em;
+
+        background: #4c6fff;
+        border-radius: 10px;
+        border: none;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 14px;
+        margin-bottom: 1em;
+        a {
+          text-decoration: none;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
