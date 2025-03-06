@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(48, 77, 80);
+}
+
+header {
+  display: flex;
+  padding: 2em 1em 1em 1em;
+  justify-content: space-between;
+  background: rgb(48, 77, 80);
+}
+header img {
+  width: 30px;
+}
+
+main {
+  margin-top: 1em;
+}
+main .hero {
+  padding: 1em;
+}
+main .hero h1 {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 42px;
+  letter-spacing: -3%;
+  text-align: center;
+  vertical-align: middle;
+}
+main .hero h1 span {
+  color: rgba(206, 223, 195, 0.95);
+}
+main .hero .image-hero {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .hero .image-hero img {
+  width: 95vw;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    display: flex;
+    padding: 2em 1em 1em 2em;
+    justify-content: space-between;
+    background: rgb(48, 77, 80);
+  }
+  header img {
+    width: 50px;
+  }
+  header nav img {
+    display: none;
+  }
+  main {
+    margin-top: 1em;
+  }
+  main .hero {
+    display: flex;
+    padding: 1em;
+    padding-left: 2em;
+    align-items: center;
+    justify-content: space-between;
+  }
+  main .hero h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 100px;
+    letter-spacing: -2%;
+    text-align: left;
+    vertical-align: middle;
+    color: white;
+  }
+  main .hero h1 span {
+    color: rgba(206, 223, 195, 0.95);
+  }
+  main .hero .image-hero {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .hero .image-hero img {
+    width: 50vw;
+  }
+}/*# sourceMappingURL=style.css.map */
